@@ -32,9 +32,8 @@ function getCurrentFunctionName() {
  *   getFunctionBody(hiHello) => "function hiHello() { console.log('hello world'); }"
  *
  */
-function getFunctionBody(func) {
-  const str = func.toString();
-  return str;
+function getFunctionBody(/* func */) {
+  throw new Error('Not implemented');
 }
 
 /**
@@ -51,8 +50,8 @@ function getFunctionBody(func) {
  *  ]) => [0, 1, 2]
  *
  */
-function getArgumentsCount(funcs) {
-  return funcs.length;
+function getArgumentsCount(/* funcs */) {
+  throw new Error('Not implemented');
 }
 
 /**
